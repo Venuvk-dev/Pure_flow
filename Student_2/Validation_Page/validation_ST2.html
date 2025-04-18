@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validator Page Student - 4</title>
+  <link rel="stylesheet" href="/Common/home.css">
+  <link rel="stylesheet" href="/Common/pageEditor_validator.css">
+
+</head>
+
+<body class="site-body" id="top">
+
+
+  <header class="site-header">
+    <div class="logo-container">
+      <img src="/Resources/logo.jpg" alt="Site Logo" class="site-logo" />
+      <span class="site-name">PureFlow</span>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="/Common/home.html">Home</a></li>
+        <li><a href="/Student_2/Table_Page/table.html">Table</a></li>
+        <li><a href="/Student_1/Volunteer_Page/volunteer.html">Volunteer</a></li>
+        <li><a href="/Student_3/FeedBack_Page/feedback.html">FeedBack</a></li>
+        <li><a href="/Student_4/Site_Map_Page/SiteMap.html">SiteMap</a></li>
+        <li><a href="/Student_3/Team_Page/team.html">Team</a></li>
+        <li>
+          <a href="/Student_4/Profile_Page/profile.html">
+            <img src="../../Resources/user.jpg" alt="User Profile Picture" class="user-profile-icon" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="stud">
+    <h2>Venukanth Ragunathar, student-2</h2>
+  </section>
+
+  <div class="container4">
+    
+    <main>
+
+      <section class="section-style">
+        <h2 id="template">Home Page validation report</h2>
+        <p>To resolve the validation issues, start by removing the trailing slash from void elements, as it is
+          unnecessary in HTML5 and can cause conflicts when used with unquoted attributes. This ensures cleaner and more
+          compatible code. Additionally, every section element should include a heading to enhance accessibility and
+          structure. If a heading is not required, replacing the section element with a more generic container prevents
+          unnecessary warnings. These adjustments help maintain proper HTML standards, improving both readability and
+          functionality.</p>
+        <img src="/Student_2/Validation_Page/home_validate.png">
+
+        <h3>Back to Page Editor page</h3>
+        <p><a href="/Student_2/PageEditor_ST2_Page/pageEditor_ST2.html">Page Editor.</a></p>
+        
+      </section>
+
+      <section>
+        <h2 id="table">Table Page validation report</h2>
+        <p>To solve the issues in the HTML code, first, remove the unnecessary self-closing slashes from image elements,
+          as they are not required in HTML5 and may cause compatibility issues. Next, address the error where a link is
+          placed inside a button, which is not allowed because both elements have different purposes. Instead, either
+          use a button with a click event that redirects users or replace the button with a styled link if navigation is
+          the primary function. Additionally, ensure that all sections have appropriate headings to improve
+          accessibility and structure. By making these adjustments, the code will be more compliant with HTML standards
+          and function properly across different browsers.</p>
+        <img src="/Student_2/Validation_Page/table_validate.png">
+
+        <h3>Back to Page Editor page</h3>
+        <p><a href="/Student_2/PageEditor_ST2_Page/pageEditor_ST2.html"> Page Editor.</a></p>
+        
+      </section>
+
+      <section>
+        <h2 id="content">Content Page validation report</h2>
+        <p>The issue occurs because the image file names contain spaces, which are not allowed in file paths within
+          HTML. To fix this, the best approach is to rename the image files by replacing spaces with underscores or
+          hyphens. For example, changing "want clean water.jpeg" to "want_clean_water.jpeg" ensures that the browser can
+          correctly locate and load the images. Another solution is to use URL encoding, where spaces are replaced with
+          "%20" in the file path. However, renaming the files is a more reliable method as it prevents compatibility
+          issues across different browsers and servers.</p>
+        <img src="/Student_2/Validation_Page/content_validate.png">
+
+        <h3>Back to Page Editor page</h3>
+        <p><a href="/Student_2/PageEditor_ST2_Page/pageEditor_ST2.html">Link back to the corresponding section of the Page Editor.</a></p>
+       
+      </section>
+
+
+      <div class="page-editor-btn">
+        <a class="text-page-editor" href="#top">Go To Top</a>
+        <span class="imoji">🔼</span>
+      </div>
+    </main>
+
+    
+    <aside>
+      <h3>Core pages developed:</h3>
+
+
+      <ul class="top-level-ul">
+        <li>Student 2</li>
+        <ul>
+          <li><a href="#template">Home page + Template </a></li>
+          <li><a href="#table">Table page</a></li>
+          <li><a href="#content">Content page</a></li>
+        </ul>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <section class="f-wrapper">
+      <div class="paddings innerWidth flexCenter f-container">
+  
+        <div class="flexColStart f-left">
+          <img src="/Resources/logo.jpg" alt="logo" width="120">
+          <span class="secondaryText">
+            Our vision is to make all people <br>
+            to get sanitated water
+          </span>
+        </div>
+  
+  
+        <div class="flexColStart f-right">
+          <span class="primaryText">Information</span>
+  
+          <div class="flexCenter f-menu">
+            <span><a href="/Common/home.html">Home</a></span>
+            <span><a href="/Student_2/Table_Page/table.html">Table</a></span>
+            <span><a href="/Student_1/Volunteer_Page/volunteer.html">Volunteer</a></span>
+            <span><a href="/Student_3/FeedBack_Page/feedback.html">FeedBack</a></span>
+            <span><a href="/Student_4/Site_Map_Page/SiteMap.html">Site Map</a></span>
+            <span><a href="/Student_3/Team_Page/team.html">Team</a></span>
+          </div>
+        </div>
+        <div class="flexColStart f-right">
+          <span class="primaryText">Validation pages</span>
+  
+          <div class="flexCenter f-menu">
+            <span><a href="/Student_1/Validation_Page/validation_ST1.html">Student 1</a></span>
+            <span><a href="/Student_2/Validation_Page/validation_ST2.html">Student 2</a></span>
+            <span><a href="/Student_3/Validation_Page/validation_ST3.html">Student 3</a></span>
+            <span><a href="/Student_4/Validation_Page/validation_ST4.html">Student 4</a></span>
+  
+          </div>
+        </div>
+        <div class="flexColStart f-right">
+          <span class="primaryText">Content Pages</span>
+  
+          <div class="flexCenter f-menu">
+            <span><a href="/Student_1/Content_ST1_Page/content_ST1.html">Student 1</a></span>
+            <span><a href="/Student_2/Content_ST2_Page/content_ST2.html">Student 2</a></span>
+            <span><a href="/Student_3/Content_ST3_Page/content_ST3.html">Student 3</a></span>
+            <span><a href="/Student_4/Content_ST4_Page/content_ST4.html">Student 4</a></span>
+          </div>
+        </div>
+        <div class="flexColStart f-right">
+          <span class="primaryText">Page Editors</span>
+  
+          <div class="flexCenter f-menu">
+            <span><a href="/Student_1/PageEditor_ST1_Page/pageEditor_ST1.html">Student 1</a></span>
+            <span><a href="/Student_2/PageEditor_ST2_Page/pageEditor_ST2.html">Student 2</a></span>
+            <span><a href="/Student_3/PageEditor_ST3_Page/pageEditor_ST3.html">Student 3</a></span>
+            <span><a href="/Student_4/PageEditor_ST4_Page/pageEditor_ST4.html">Student 4</a></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
